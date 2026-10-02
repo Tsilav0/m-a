@@ -1,0 +1,22 @@
+{
+  "name": "incollable-ma",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Incollable M&A : appli d'entraînement aux entretiens M&A (Android, hors ligne)",
+  "scripts": {
+    "build": "cd build && npm install && node build.js",
+    "sync": "npm run build && npx cap sync android",
+    "apk": "npm run sync && cd android && ./gradlew assembleDebug"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.5.2",
+    "@capacitor/app": "^8.1.1",
+    "@capacitor/core": "^8.5.2",
+    "@capacitor/local-notifications": "^8.3.1",
+    "@capacitor/preferences": "^8.0.1",
+    "@capacitor/status-bar": "^8.0.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.5.2"
+  }
+}

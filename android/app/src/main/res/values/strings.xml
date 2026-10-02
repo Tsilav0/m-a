@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Incollable M&amp;A</string>
+    <string name="title_activity_main">Incollable M&amp;A</string>
+    <string name="package_name">fr.incollable.ma</string>
+    <string name="custom_url_scheme">fr.incollable.ma</string>
+</resources>

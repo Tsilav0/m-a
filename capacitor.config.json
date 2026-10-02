@@ -1,0 +1,8 @@
+{
+  "appId": "fr.incollable.ma",
+  "appName": "Incollable M&A",
+  "webDir": "www",
+  "android": {
+    "backgroundColor": "#0B6E5B"
+  }
+}
